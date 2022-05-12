@@ -30,7 +30,7 @@
 //  BOOK ID, "PROPERTY VALUE"
 //
 //  Test case 1:
-//        $ cd $(mktemp -d) && mkdir books && echo 'title=my title' > books/100 && echo 'title=The Bible' >> books/999 && ~/dev/bookstore_mgr.php books title
+//        $ cd $(mktemp -d) && mkdir books && echo 'title=my title' > books/100 && echo 'title=The Bible' > books/999 && ~/dev/bookstore_mgr.php books title
 //        Expected result: 
 //          100, "my title"
 //          999, "The Bible"
