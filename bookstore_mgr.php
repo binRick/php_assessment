@@ -37,7 +37,7 @@
 
 
 function invalid_usage($msg){
-    if($extra_err=="")
+    if($msg=="")
         echo "Invalid invocation. Please see usage example\n";
     else
         echo $msg ."\n";
